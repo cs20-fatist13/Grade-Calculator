@@ -2,8 +2,8 @@ body{
   text-align: left;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: larger;
-  background-color:#FFFDF7;
-  color: black;
+  background-color:#F9F5E3;
+  color: #2A2B2A;
   width: 600px;
   padding: 20px 50px;
   margin: auto;
@@ -11,7 +11,7 @@ body{
 button{
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  background-color: yellow;
+  background-color: #E2D38D;
   color: black;
 }
 input{
@@ -20,6 +20,7 @@ input{
 }
 p {
   text-align: left;
+  color: #2A2B2A
 }
 h3 {
   text-align: center;
