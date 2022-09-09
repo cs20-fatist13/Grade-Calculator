@@ -1,1 +1,26 @@
-/* CSS Style Sheet */
+body{
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  background-color: white;
+  color: black;
+  width: 600px;
+  padding: 20px 50px;
+  margin: auto;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: yellow;
+  color: black;
+}
+input{
+  width: 60px;
+}
+p {
+  text-align: left;
+}
+h3 {
+  text-align: center;
+
+}
