@@ -1,22 +1,22 @@
 body{
   text-align: left;
-  font-family: 'Merriweather', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: larger;
-  background-color: ghostwhite;
+  background-color:#FFFDF7;
   color: black;
   width: 600px;
   padding: 20px 50px;
   margin: auto;
 }
 button{
-  font-family: 'Merriweather', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   color: white;
   background-color: yellow;
   color: black;
 }
 input{
   width: 60px;
-  background-color: ghostwhite;
+  background-color: lightgrey;
 }
 p {
   text-align: left;
@@ -28,4 +28,5 @@ h3 {
 }
 button:hover {
     text-decoration: underline;
+    background-color: lightgray;
 }
