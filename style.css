@@ -2,7 +2,7 @@ body{
   text-align: left;
   font-family: 'Merriweather', serif;
   font-size: larger;
-  background-color: white;
+  background-color: ghostwhite;
   color: black;
   width: 600px;
   padding: 20px 50px;
@@ -16,6 +16,7 @@ button{
 }
 input{
   width: 60px;
+  background-color: ghostwhite;
 }
 p {
   text-align: left;
