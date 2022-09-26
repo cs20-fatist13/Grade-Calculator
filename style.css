@@ -13,10 +13,12 @@ button{
   color: white;
   background-color: #E2D38D;
   color: black;
+  border-radius: 20px;
 }
 input{
   width: 60px;
   background-color: lightgrey;
+  border-radius: 5px;
 }
 p {
   text-align: left;
