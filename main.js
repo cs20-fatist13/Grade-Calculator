@@ -1,12 +1,6 @@
 // JavaScript Code
+// Button Event Listener
+document.getElementById("btn").addEventListener("click", btnClicked);
 // Input
-document.getElementById("btn").addEventListener("click", sayButton);
-
-function sayButton() {
-    alert("Hello Button");
-}
-
-document.getElementById("heading").addEventListener("click", helloHeading)
-function helloHeading() {
-    alert("hello Heading");
-}
+let name = document.getElementById("btn1").value.toLowerCase();
+let outputEl = document.getElementById("currentTile");
