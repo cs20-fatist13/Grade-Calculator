@@ -2,8 +2,8 @@ body{
   text-align: left;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: larger;
-  background-color:#F9F5E3;
-  color: #2A2B2A;
+  background-color:#F7F7F2;
+  color: #222725;
   width: 600px;
   padding: 20px 50px;
   margin: auto;
@@ -11,8 +11,8 @@ body{
 button{
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  background-color: yellowgreen;
-  color: black;
+  background-color: #899878;
+  color: #222725;
   border-radius: 20px;
 }
 input{
@@ -31,5 +31,5 @@ h3 {
 }
 button:hover {
     text-decoration: underline;
-    background-color: lightgray;
+    background-color: #E4E6C3;
 }
