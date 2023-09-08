@@ -18,7 +18,7 @@ function btnClicked() {
 
 function getLetterGrade() {
   let grade = +document.getElementById("output").innerHTML;
-  let letterGrade = "";
+  let letterGrade = +document.getElementById("output").value;
 
   if (grade >= 90) {
     letterGrade = "A";
