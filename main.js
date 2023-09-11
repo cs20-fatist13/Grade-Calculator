@@ -14,6 +14,7 @@ function btnClicked() {
   let grade = (i1 + i2 + i3 + i4 + p1) / 5;
   
   document.getElementById("output").innerHTML = grade + "%";
+  mathletter(grade);
 }
 
 function getLetterGrade() {
@@ -32,6 +33,10 @@ function getLetterGrade() {
     letterGrade = "F";
   }
 
-    let math
+  //  let math
+
+}
+
+function mathletter(letterGrade) {
   document.getElementById("letterGrade").innerHTML = letterGrade;
 }
