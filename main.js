@@ -32,5 +32,6 @@ function getLetterGrade() {
     letterGrade = "F";
   }
 
+    let math
   document.getElementById("letterGrade").innerHTML = letterGrade;
 }
