@@ -33,8 +33,6 @@ function getLetterGrade() {
     letterGrade = "F";
   }
 
-  //  let math
-
 }
 
 function mathletter(letterGrade) {
