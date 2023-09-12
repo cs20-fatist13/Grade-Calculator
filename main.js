@@ -1,19 +1,15 @@
-
-
 document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked() {
-  
-  let i1 = +document.getElementById("i1").value;
-  let i2 = +document.getElementById("i2").value;
-  let i3 = +document.getElementById("i3").value;
-  let i4 = +document.getElementById("i4").value;
-  let p1 = +document.getElementById("p1").value;
-
+  let i1 = document.getElementById("i1").value;
+  let i2 = document.getElementById("i2").value;
+  let i3 = document.getElementById("i3").value;
+  let i4 = document.getElementById("i4").value;
+  let p1 = document.getElementById("p1").value;
 
   let grade = (i1 + i2 + i3 + i4 + p1) / 5;
-  
-  document.getElementById("output").innerHTML = grade + "%";
+
+  document.getElementById("output").innerHTML = grade.toFixed(2) + "%";
 }
 
 function getLetterGrade() {
@@ -33,4 +29,4 @@ function getLetterGrade() {
   }
 
   document.getElementById("letterGrade").innerHTML = letterGrade;
-}
+}s
