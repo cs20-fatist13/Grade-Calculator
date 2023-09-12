@@ -15,26 +15,29 @@ function btnClicked() {
   
   document.getElementById("output").innerHTML = grade + "%";
   mathletter(grade);
-}
 
-function getLetterGrade() {
-  let grade = +document.getElementById("output").innerHTML;
-  let letterGrade = +document.getElementById("output").value;
-
-  if (grade >= 90) {
-    letterGrade = "A";
-  } else if (grade >= 80) {
-    letterGrade = "B";
-  } else if (grade >= 70) {
-    letterGrade = "C";
-  } else if (grade >= 60) {
-    letterGrade = "D";
-  } else {
-    letterGrade = "F";
+  function getLetterGrade() {
+    let grade = +document.getElementById("output").innerHTML;
+    let letterGrade = +document.getElementById("output").value;
+  
+    if (grade >= 90) {
+      letterGrade = "A";
+    } else if (grade >= 80) {
+      letterGrade = "B";
+    } else if (grade >= 70) {
+      letterGrade = "C";
+    } else if (grade >= 60) {
+      letterGrade = "D";
+    } else {
+      letterGrade = "F";
+    }
+  
   }
 
+  function mathletter(letterGrade) {
+    document.getElementById("letterGrade").innerHTML = letterGrade;
+  }
 }
 
-function mathletter(letterGrade) {
-  document.getElementById("letterGrade").innerHTML = letterGrade;
-}
+
+
