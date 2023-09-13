@@ -12,6 +12,9 @@ function btnClicked() {
   document.getElementById("output").innerHTML = grade.toFixed(2) + "%";
 }
 
+document.getElementById("output").innerHTML = grade + "%";
+mathletter(grade);
+
 function getLetterGrade() {
   let grade = +document.getElementById("output").innerHTML;
   let letterGrade = +document.getElementById("output").value;
@@ -27,6 +30,10 @@ function getLetterGrade() {
   } else {
     letterGrade = "F";
   }
+}
 
+document.getElementById("letterGrade").innerHTML = letterGrade;
+
+function mathletter(letterGrade) {
   document.getElementById("letterGrade").innerHTML = letterGrade;
-}s
+}
